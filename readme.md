@@ -1,11 +1,9 @@
 [![Node.js CI](https://github.com/mfaisalkhatri/restful-ecommerce/actions/workflows/node.js.yml/badge.svg?branch=main)](https://github.com/mfaisalkhatri/restful-ecommerce/actions/workflows/node.js.yml) [![License: AGPL v3](https://img.shields.io/badge/License-AGPL_v3-blue.svg)](https://www.gnu.org/licenses/agpl-3.0)
 
-# Restful E-Commerce
+# Rest-API-Testing-E-Commerce
 
 A simple Node E-Commerce application for testing RESTful web services. 
 This application is built for testers to practice API Testing Manually using tools like [Postman](https://www.postman.com/downloads/) or using API Test Automation tools like [SuperTest](https://www.npmjs.com/package/supertest), [Rest-Assured](https://rest-assured.io/), [Playwright](https://playwright.dev/java/docs/api-testing), [Cypress](https://learn.cypress.io/advanced-cypress-concepts/integration-and-api-tests), [Boyka-Framework](https://github.com/BoykaFramework/boyka-framework), etc.
-
-## Don't forget to give a :star: to make the project popular
 
 # Installation Steps
 1. Clone the repo
@@ -34,7 +32,7 @@ Swagger is exposed on http://localhost:3004/api-docs
 
 # Installation using Docker
 1. Clone the repo
-1. Navigate into the restful-ecommerce root folder
+1. Navigate into the rest-api-testing-ecommerce root folder
 1. Create a `.env` file and copy the following contents in it:
   ```
   AUTH_USERNAME=admin
@@ -50,44 +48,3 @@ Swagger is exposed on http://localhost:3004/api-docs
 
 After running all the steps mentioned in the `Installation steps` section, the following command will execute all the unit-tests. (It is optional to run the unit tests, these tests are written using SuperTest) 
 1. Run `npm run unit-test`
-
-## Checkout the API Documentation on the [Wiki-Page](https://github.com/mfaisalkhatri/restful-ecommerce/wiki)
-
-## Tutorials of this Project 
-
-### Blog
-
-- [RESTful E-Commerce API in Node.js: Demo APIs for API Testing](https://medium.com/@iamfaisalkhatri/restful-ecommerce-a-simple-demo-node-e-commerce-application-for-practising-api-testing-db867ed3be9f)
-
-### YouTube
-
-- RESTful E-Commerce API in Node.js: Demo APIs for API Testing | Open Source | Tutorial
-
-[![RESTful E-Commerce API in Node.js: Demo APIs for API Testing | Open Source | Tutorial](https://img.youtube.com/vi/9WDhjf-Qlo4/0.jpg)](https://www.youtube.com/watch?v=9WDhjf-Qlo4)
-
-
-## API Testing Tutorials
-
-- [How to test POST requests with Playwright Java](https://medium.com/@iamfaisalkhatri/playwright-java-api-testing-how-to-test-post-requests-4c9102d3ab03)
-- [How to test GET requests with Playwright Java](https://medium.com/@iamfaisalkhatri/playwright-java-api-testing-how-to-test-get-requests-c036b984cc6d)
-- [How to test PUT requests with Playwright Java](https://medium.com/@iamfaisalkhatri/playwright-java-api-testing-how-to-test-put-requests-d6b1d054d64b)
-- [How to test PATCH requests with Playwright Java](https://medium.com/@iamfaisalkhatri/playwright-java-api-testing-how-to-test-patch-requests-f6b0867d91e7)
-- [How to test DELETE requests with Playwright Java](https://medium.com/@iamfaisalkhatri/playwright-java-api-testing-how-to-test-delete-requests-2ff77feb0383)
-- [How to Create a Custom Logger for Logging Response Details with Playwright Java](https://medium.com/@iamfaisalkhatri/playwright-java-api-testing-creating-custom-logger-for-logging-response-details-771e961d9faa)
-- [How to Test POST Requests with Rest-Assured Java for API Testing: Part I](https://medium.com/javarevisited/how-to-test-post-requests-with-rest-assured-for-api-testing-part-i-d697efab5875)
-- [How to Test POST Requests with Rest-Assured Java for API Testing: Part II](https://medium.com/javarevisited/how-to-test-post-requests-with-rest-assured-java-for-api-testing-part-ii-30dfe04a533a)
-- [How to test a SOAP API request with Rest-Assured Java](https://medium.com/javarevisited/how-to-test-a-soap-api-request-with-rest-assured-java-c7fbab845c46)
-- [How to Perform Response Verification in REST-Assured Java for API Testing](https://medium.com/javarevisited/how-to-perform-response-verification-in-rest-assured-java-for-api-testing-666583f58334)
-- [Postman Learning Center](https://learning.postman.com/)
-- [Automating your API tests with REST Assured](https://testautomationu.applitools.com/automating-your-api-tests-with-rest-assured/)
-- [How to perform End to End API Testing using Playwright with Java and TestNG](https://medium.com/@iamfaisalkhatri/how-to-perform-end-to-end-api-testing-using-playwright-with-java-and-testng-26b318927115)
-- [End to End API Testing using rest-assured](https://medium.com/@iamfaisalkhatri/end-to-end-api-testing-using-rest-assured-a58c4ea80255)
-- [Learn API Testing using Rest-Assured | Tutorial | Part 1](https://www.youtube.com/live/xLKpdQE0oKY?si=VCija9_74KVhkdQK)
-- [Learn API Testing using Rest-Assured | Part 2 | Code Cleanup and Refactoring | Tutorial](https://www.youtube.com/live/AFQSolEeu74?si=QmRS9HTpjpHOcsq3)
-- [Curated lists of all Free learning resources for Software Test Automation Engineer ](https://github.com/mfaisalkhatri/awesome-learning)
-
-## :question: Need Assistance?
-
-- Discuss your queries by writing to me @ `mohammadfaisalkhatri@gmail.com`
-  OR ping me on any of the social media sites using the below link:
-    - [Linktree](https://linktr.ee/faisalkhatri)
